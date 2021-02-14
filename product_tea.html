@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+
+<head>
+	<title>tastyTea</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="image/icon.ico" type="image/icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<div class="logo">
+		<div class="logo-text">tastyTea</div>
+	</div>
+
+	<nav>
+
+		<ul class="topnav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="product_tea.html">Tea</a></li>
+			<li><a href="product_bodyCare.html">Body care</a></li>
+			<li><a href="product_newArrivals.html">New Arrivals</a></li>
+			<li><a href="signUp.html">Sign up</a></li>
+			<li><a href="view_cart.html">View Cart</a></li>
+
+			<li class="search-container" id="searchID">
+				<form action="search.html">
+					<form action="#">
+						<input type="text" placeholder="Search.." name="search">
+						<button type="submit"><i class="fa fa-search"></i></button>
+					</form>
+		</ul>
+
+	</nav>
+
+	<!-- Start	Droplist -->
+	<div class="dropdown">
+		<button class="dropbtn">Filter by price</button>
+		<div class="dropdown-content">
+			<a href="#">From low to hight</a>
+			<a href="#">From hight to low</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Filter by rating</button>
+		<div class="dropdown-content">
+			<a href="#">From low to hight</a>
+			<a href="#">From hight to low</a>
+		</div>
+	</div>
+	<!-- End Droplist -->
+
+	<!-- Start of Product -->
+	<div class="container">
+		<div class="product">
+
+			<!-- Start	Product1 details -->
+			<div class="product-details">
+
+				<!-- 	Product1 Name -->
+				<h1>Herbal Tea</h1> <!-- 		the Product rating -->
+				<span class="hint-star star">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</span>
+
+				<!-- information about the product1 -->
+				<p class="information">" Herbal tea isn’t really made from tea.
+					The French use the word tisane, which is a little more accurate,
+					since herbal tea is really just an infusion of leaves, seeds, roots
+					or bark, extracted in hot water. In drinking a well-steeped herbal tea,
+					we get all the plant’s benefits in an easily digestible form. "</p>
+
+				<!-- 		Control -->
+				<div class="control">
+
+					<!-- Start Button buying -->
+					<button href="index" class="btn">
+						<!-- 		the Price -->
+						<span class="price">25 $</span>
+						<!-- 		shopping cart icon-->
+						<span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+						<!-- 		Buy Now -->
+						<span class="buy">Buy Now</span>
+						<!-- 		Choose Quantity -->
+						<span>
+							<label for="quantity">Quantity</label>
+							<select id="qualtity" name="quantity">
+								<option>0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+
+							</select>
+						</span>
+					</button>
+					<!-- End Button buying -->
+
+				</div>
+				<!-- 		Control ends -->
+
+			</div>
+
+			<!-- 	End	Product1 details   -->
+
+			<!-- 	Start product1 image & Information -->
+
+			<div class="product-image">
+
+				<img src="image/products/5.jpg" alt="Image not loaded">
+
+			</div>
+
+			<!--  End product1 image  -->
+
+		</div>
+
+		<div class="product">
+
+			<!-- Start	Product2 details -->
+			<div class="product-details">
+
+				<!-- 	Product2 Name -->
+				<h1>Flower Tea</h1>
+
+				<!-- 		the Product2 rating -->
+				<span class="hint-star star">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</span>
+
+				<!-- information about the product2 -->
+				<p class="information">" These are made by binding tea leaves and flowers
+					together into a bulb, then setting them to dry. When steeped, the bundle
+					expands and unfurls in a process that emulates a blooming flower,and the
+					flowers inside emerge as the centerpiece.Flowers commonly used in flowering
+					teas include globe amaranth, chrysanthemum, jasmine, lily and hibiscus. "</p>
+
+				<!-- 		Control -->
+				<div class="control">
+
+					<!-- Start Button buying -->
+					<button href="index" class="btn">
+						<!-- 		the Price -->
+						<span class="price">16 $</span>
+						<!-- 		shopping cart icon-->
+						<span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+						<!-- 		Buy Now -->
+						<span class="buy">Buy Now</span>
+						<!-- 		Choose Quantity -->
+						<span>
+							<label for="quantity">Quantity</label>
+							<select id="qualtity" name="quantity">
+								<option>0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+
+							</select>
+						</span>
+					</button>
+					<!-- End Button buying -->
+
+				</div>
+				<!-- 		Control ends -->
+
+			</div>
+
+			<!-- 	End	Product2 details   -->
+
+			<!-- 	Start product2 image -->
+
+			<div class="product-image">
+
+				<img src="image/products/3.jpg" alt="Image not loaded">
+
+			</div>
+			<!--  End product2 image  -->
+		</div>
+
+		<div class="product">
+
+			<!-- Start	Product3 details -->
+			<div class="product-details">
+
+				<!-- 	Product3 Name -->
+				<h1>Chai Tea</h1>
+
+				<!-- 		the Product3 rating -->
+				<span class="hint-star star">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</span>
+
+				<!-- information about the product3 -->
+				<p class="information">" Chai is a traditional Indian black
+					tea made with milk and sugar. When made with milk, Chai is
+					soothing, warming and utterly delicious. However, you can make
+					it without a milk too. For regular brewing we recommend pre-made
+					chai blends that can be ready in 5 minutes. "</p>
+
+				<!-- 		Control -->
+				<div class="control">
+
+					<!-- Start Button buying -->
+					<button href="index" class="btn">
+						<!-- 		the Price -->
+						<span class="price">30 $</span>
+						<!-- 		shopping cart icon-->
+						<span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+						<!-- 		Buy Now -->
+						<span class="buy">Buy Now</span>
+						<!-- 		Choose Quantity -->
+						<span>
+							<label for="quantity">Quantity</label>
+							<select id="qualtity" name="quantity">
+								<option>0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+
+							</select>
+						</span>
+					</button>
+					<!-- End Button buying -->
+
+				</div>
+				<!-- 		Control ends -->
+
+			</div>
+
+			<!-- 	End	Product3 details   -->
+
+			<!-- 	Start product3 image -->
+
+			<div class="product-image">
+
+				<img src="image/products/4.jpg" alt="Image not loaded">
+
+			</div>
+
+			<!--  End product3 image  -->
+		</div>
+
+	</div>
+
+	<footer class="footer">
+		<div>
+			<h1 class="footer__logo">This site is only for educational purposes for course WEB CST8285_312</h1>
+
+			<h2>Contact Us</h2>
+
+			<address>
+				5534 Somewhere In. Canada 22193-10212<br>
+
+
+			</address>
+		</div>
+		<div class="legal__links">
+			<span>Made with <span class="heart">♥</span> remotely from Canada</span>
+		</div>
+
+
+	</footer>
+
+</body>
